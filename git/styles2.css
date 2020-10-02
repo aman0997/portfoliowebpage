@@ -1,0 +1,259 @@
+.{
+	margin: 0;
+	padding: 0;
+}
+.clearfix{
+	clear: both;
+}
+#container{
+	height: 4000%;
+	width: 100%;
+	margin: 0 auto;
+	
+}
+header{
+
+	width: 100%;
+	background:mintcream;
+	color: 	darkslategray;
+	
+}
+#left-header
+{
+	padding:0 80px;
+	font-family: arial;
+	float: left;
+}
+#left-header a
+{
+ color: initial;
+}
+nav{
+	 float: right;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	float: left;
+	padding:20px 30px;
+	font-size: 20px;
+	margin: 5px 10px;
+	font-weight: bold;
+	transition-duration: 1s;
+	cursor: pointer;
+}
+nav ul li:hover{
+	background: springgreen;
+	padding:  10px;
+	color: dimgray;
+	}
+	nav ul li a{
+		color: black;
+	}
+	main{}
+.main_img{
+	height: 800px;
+	width: 100%;
+	border:1px solid grey;
+}
+.frst_sctn {
+	padding: 0 5%;
+	
+}
+.frst_sctn h2{
+	text-align: center;
+	background: snow;
+	padding: 30px;
+	margin-top: -3px;
+	font-style: italic;
+	font-size: 30px;
+	color: dimgray; 
+	box-shadow:  0 2px silver;
+	text-shadow: 0 0 3px red;
+	font-size: 40px;
+}
+
+article{
+	margin-top: 75px;
+	width: 23%;
+	background: whitesmoke;
+	color: black;
+	box-shadow: 3px 3px 15px darkgray;
+	font-weight: lighter;
+	font-family: courier new;
+	float: left;
+	margin-right: 27px;
+
+	}
+article h3{
+	text-align: center;
+	padding: 20px 10px;
+	margin-bottom: 0;
+	color:black;
+	background: snow;
+	font-family: arial;
+	font-weight: bolder;
+}
+.bg{
+	height: 100%;
+	width: 100%;
+}
+.second_sctn {
+	width: 100%;
+	height:800px;
+	margin-top: 20px;
+	background-size: 100%; 
+	background-image: url(https://images.unsplash.com/photo-1500316124030-4cffa46f10f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+	box-sizing: border-box;
+}
+.second_sctn h2
+{
+	text-align: center;
+	padding: 30px;
+	color: 	red;
+	font-size:35px;
+	text-shadow:  0 0 5px yellow ,2px 2px 10px red;
+	margin-bottom: 50px;
+}
+.second_sctn .left_side{
+	width: 40%;
+	float: left;
+}
+.second_sctn .left_side img{
+	
+	margin-left: 50px;
+	margin-top: 50px;
+	width: 100%;
+	height: 500px;
+	border-radius: 110px;
+	border: 4px solid white;
+}
+.second_sctn .right_side{
+	width: 30%;
+	float: right;
+	color: white;
+	background: black;
+	background-size: 50%;
+	border:5px dotted white;
+	padding: 20px;
+	line-height: 30px;
+	margin-right: 40px;
+	margin-top: 50px;
+	border-radius: 70px;
+}
+.third_sctn {
+	width: 100%;
+	height:400px;
+	margin-top: 20px;
+	background-size: 100%; 
+	background:white;
+	box-sizing: border-box;
+}
+.third_sctn h3
+{
+	width: 100%;
+	height:800px;
+	margin-top: 20px;
+	background-size: 100%; 
+	background-image: url(https://images.unsplash.com/photo-1500316124030-4cffa46f10f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+	box-sizing: border-box;
+}
+.third_sctn .left_side{
+	width: 40%;
+	float: left;
+}
+
+.icon-bar  {
+  position: sticky;
+  top: 50%;
+  -webkit-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
+}
+
+.icon-bar a {
+  
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: tomato;
+  color: white;
+}
+
+}
+.third_sctn .left_side img{
+	
+	margin-left: 50px;
+	margin-top: 50px;
+	width: 100%;
+	height: 500px;
+	border-radius: 110px;
+	border: 4px solid white;
+}
+.third_sctn .right_side{
+	width: 30%;
+	float: right;
+	color: black;
+	background: grey;
+	background-size: 50%;
+	
+	padding: 20px;
+	line-height: 30px;
+	margin-right: 40px;
+	margin-top: 30px;
+	border-radius: 70px;
+}
+
+footer{
+	width: 100%;
+	
+	background: black;
+	color: white;
+	
+
+}
+footer .left_footer{
+	padding: 20px;
+	float: left;
+	margin-left: 500px;
+	font-size: 25px;
+}
+footer .right_footer{
+	padding: 5px;
+	float: right;
+	font-size: 15px;
+}
+footer .right_footer ul li{
+	list-style: none;
+	float: left;
+	padding: 10px;
+	margin-top: -10px;
+}
+footer .right_footer ul li:hover{
+	color:green;
+	padding: 2px;
+}
